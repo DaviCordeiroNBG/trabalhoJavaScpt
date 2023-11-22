@@ -1,0 +1,6 @@
+let nome = prompt(" Informe o seu nome? ");
+let idade = prompt(" Informe anos você tem? ");
+let linguagem = prompt(" Informe linguagem de programação que você está estudando? ")
+
+const msg = Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}.
+alert(msg);
